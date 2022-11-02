@@ -1,0 +1,78 @@
+Ejercici0 con If
+
+public class Main {
+    public static void main(String[] args) {
+
+        int NumeroIf=-9;
+        if (NumeroIf>0){
+            System.out.println("NumeroIf es positivo");
+        } else if (NumeroIf<0) {
+            System.out.println("NumeroIf es Negativo");
+        } else if (NumeroIf==0) {
+            System.out.println("NumeroIf es igual a cero");
+        }else{
+            System.out.println("solo se aceptan numeros");
+        }
+    }
+}
+
+Ejercicio con While
+
+public class Main {
+    public static void main(String[] args) {
+
+        int NumeroWhile=0;
+        while (NumeroWhile<3){
+            System.out.println("NumeroWhile es igual a " + NumeroWhile);
+            NumeroWhile++;
+        }
+    }
+}
+
+
+Ejercicio con Do While
+
+    public class Main {
+        public static void main(String[] args) {
+            int NumeroWhile=2;
+            do {
+                System.out.println("NumeroWhile es igual a " + NumeroWhile);
+                NumeroWhile++;
+            }
+            while (NumeroWhile<3);
+            }
+        }
+        
+ Ejercicio con For
+ 
+     public class Main {
+        public static void main(String[] args) {
+            for (int NumeroFor=0;NumeroFor<=3;NumeroFor++){
+                System.out.println("NumeroFor es igual a " + NumeroFor);
+            }
+        }
+    }
+    
+    Ejercicio con Switch
+    
+        public class Main {
+        public static void main(String[] args) {
+            var estacion="Verano";
+            switch (estacion){
+                case "Verano":
+                    System.out.println("es verano");
+                    break;
+                case "Invierno":
+                    System.out.println("es Invierno");
+                    break;
+                case "Otono":
+                    System.out.println("es otono");
+                    break;
+                case "Primavera":
+                    System.out.println("es primavera");
+                    break;
+                default:
+                    System.out.println("no se reconoce estacion");
+            }
+        }
+    }
